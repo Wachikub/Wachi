@@ -1,0 +1,38 @@
+.body,html{
+	background-image:url(thumb-1920-1084924.png);
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-position:center;
+	}
+.text{
+	font-size:40px;
+	color:#FFF;
+	text-align:center;
+	width:100%;
+	padding:200px 0;
+}
+a.underline-hover-effect {
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline-hover-effect {
+  display: inline-block;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
+}
+
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background-color:#F00;
+  transition: width 0.25s ease-out;
+}
+.underline-hover-effect:hover::before {
+  width: 100%;
+}
