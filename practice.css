@@ -1,0 +1,59 @@
+body{
+	background-color:#000;}
+.text{
+	font-size:50px;
+	padding:100px 0;
+	text-align:center;
+	color:#FFF;}
+.text1{
+	color:#fff;
+	text-align:center;
+	font-size:10px;
+	padding:200px;}
+
+.button{
+	display:inline-block;
+	border:2px solid #fff;
+	padding:10px 20px;
+	background:#000;
+	color:#fff;
+	transition:0.5s;
+	}
+.button:hover{
+	border-radius:30px;
+	background:#fff;
+	color:#000;
+	border:2px solid #fff}
+a.underline-hover-effect {
+  text-decoration: none;
+  color: inherit;
+  
+  
+}
+.underline-hover-effect {
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  position: relative;
+   font-size:10px;
+}
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background-color:red;
+  transition: width 0.5s ease-out;
+  
+}
+.underline-hover-effect:hover::before {
+  width: 100%;
+  
+   
+}
+.size{
+	font-size:10px;}
+.size:hover{
+	font-size:100px;
+	transition:0.5s;}
